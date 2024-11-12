@@ -19,14 +19,14 @@ export const NavPriv = () => {
         <li className="menu-list__item">
           <NavLink to="/rsocial/feed" className="menu-list__link">
             <i className="fa-solid fa-list"></i>
-            <span className="menu-list__title">Timeline</span>
+            <span className="menu-list__title">Artículos</span>
           </NavLink>
         </li>
 
         <li className="menu-list__item">
           <NavLink to="/rsocial/gente" className="menu-list__link">
             <i className="fa-solid fa-users"></i>
-            <span className="menu-list__title">Gente</span>
+            <span className="menu-list__title">Tutores</span>
           </NavLink>
         </li>
       </ul>
