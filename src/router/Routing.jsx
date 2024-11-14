@@ -14,7 +14,7 @@ import { Followers } from '../components/follow/Followers';
 import { Profile } from '../components/user/Profile';
 import { MyPublications } from '../components/publication/MyPublications';
 import { PublicationDetail } from '../components/publication/PublicationDetail';
-
+import { Home } from '../components/layouts/public/Home';
 
 export const Routing = () => {
   return (
@@ -23,7 +23,8 @@ export const Routing = () => {
         <Routes>
           {/* Cargamos los componentes de la ruta pública en rutas anidadas*/}
           <Route path="/" element={<PublicLayout />}>
-            <Route index element={<Login />} />
+            <Route index element={<Home />} />
+            <Route path='home' element={<Home />} />
             <Route path='login' element={<Login />} />
             <Route path='registro' element={<Register />} />
           </Route>

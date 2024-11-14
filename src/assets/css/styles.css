@@ -1,9 +1,9 @@
 /*ESTILOS GENERALES*/
 :root {
   --color-general-text: #333;
-  --color-backgroud-navbar: #239624;
+  --color-backgroud-navbar: #1b8ec5;
   --color-text-navbar: white;
-  --color-hover-navbar: #17cc62;
+  --color-hover-navbar: #71b9de;
 
   --color-border-headers: #eee;
 
@@ -586,7 +586,7 @@ button{
   padding: 2rem; /* Agrega algo de padding alrededor del formulario */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra */
   border-radius: 10px; /* Opcional: redondea las esquinas */
-  background-color: #fff; /* Opcional: establece un color de fondo */
+  background-color: #d3edfd; /* Opcional: establece un color de fondo */
   margin: 0 auto; /* Centrar horizontalmente */
 }
 
@@ -603,4 +603,29 @@ button{
   color: var(--color-name-user);
   font-size: 2rem;
   font-weight: bold;
+}
+
+/* src/components/Home/Home.css */
+.home-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 3.5rem;
+  color: #333;
+}
+
+.home-container p {
+  font-size: 2.2rem;
+  color: #666;
+}
+
+.banner__img{
+  width: 900px;
+  height: auto;
+  padding-top: 25px;
+  opacity: ;
+  align-content: center;
+  
 }
