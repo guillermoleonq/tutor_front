@@ -1,6 +1,7 @@
 
 //import React from 'react';
 import banner from '../../../assets/img/banner1.jpg';
+import '../../../assets/css/styles.css';
 
 export const Home = () => {
   return (

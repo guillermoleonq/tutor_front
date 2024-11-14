@@ -1,6 +1,6 @@
 // Ruta del Backend desplegado
   export const Global = {
-    url: "https://backend-social-net-1tng.onrender.com/api/"
+    url: "https://tutor-back.onrender.com/api/"
   }
 
 
